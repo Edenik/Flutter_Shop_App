@@ -20,7 +20,7 @@ class ProductItem extends StatelessWidget {
                 arguments: product.id);
           },
           child: Hero(
-            tag: product.imageUrl,
+            tag: product.id,
             child: Image.network(
               product.imageUrl,
               fit: BoxFit.cover,
